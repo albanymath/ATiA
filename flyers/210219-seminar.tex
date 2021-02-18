@@ -1,0 +1,19 @@
+% !TeX program = xelatex
+\documentclass{UAmathtalk}
+
+\author{Elchanan Solomon}
+\address{Duke University}
+\urladdr{https://elchanansolomon.com/}
+\title{From Geometry to Topology: Inverse Theorems for Distributed Persistence}
+\date{Friday, February 19, 2021}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+As an invariant of point clouds, persistent homology has two serious limitations: it can be hard to interpret and expensive to compute. The former notion, interpretability, can be framed as an inverse problem: to understand what a point cloud might look like from its diagram, one must be able to characterize the ``fiber'' of the persistence map. Of the two problems, the simpler to remedy is that of computational complexity: instead of computing the persistence diagram of the full point cloud, one might compute the diagrams of many subsamples. If the subsamples are small in size, many thousands of diagrams can be computed quickly. We call the resulting invariant \emph{distributed persistence}. What is surprising is that this subsampling procedure, designed to solve the problem of expensive calculations, also addresses the problem of invertibility. Indeed, as an invariant it is much more than invertible: it is globally bilipschitz (with only a multiplicative distortion term, no additive constant term) to the quasi-isometry metric between point clouds. Moreover, the bilipschitz constant is quadratic in the size of the subsets sampled. Thus, as we sample subsets with more and more points, we interpolate between a fully geometric and topological invariant.
+\end{abstract}
+
+\end{document}

@@ -63,7 +63,8 @@
     \ifdefvoid{\@address}{}{\\\@address} \\[1.5\bigskipamount]
     \titlefont{\@title}                  \\[2.0\bigskipamount]
     \@date                               \\
-    \when\ in \where
+    %\when\ in \where %%deleted in for "on Zoom"
+    \when\ \where
     \ifdefvoid{\moreinfo}{}{\\\moreinfo} \\[3.0\bigskipamount]
   \end{center}
 }
