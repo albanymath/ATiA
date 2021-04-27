@@ -1,0 +1,16 @@
+April 16th, 2021 Applied Topology in Albany (ATiA) Seminar
+https://atia-seminar.github.io/
+
+Speaker: Luis Scoccola (Michigan State University)
+
+Title: "Approximate and Discrete Vector Bundles in Theory and Applications"
+
+Abstract: Synchronization problems, such as the problem of reconstructing a 3D shape from a set of 2D projections, can often be modeled by principal
+bundles. Similarly, the application of local PCA to a point cloud concentrated around a manifold approximates the tangent bundle of the manifold. In the
+first case, the characteristic classes of the bundle provide obstructions to global synchronization, while, in the second case, they provide topological
+information of the manifold beyond its homology, and in particular, give obstructions to dimensionality reduction. I will describe joint work with Jose
+Perea in which we propose several notions of approximate and discrete vector bundle, study the extent to which they determine true vector bundles, and
+give algorithms for the stable and consistent computation of low-dimensional characteristic classes directly from these combinatorial representations. No
+previous knowledge of the theory of vector bundles will be assumed.
+
+https://arxiv.org/abs/2104.07563
