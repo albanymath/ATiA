@@ -9,7 +9,7 @@
 \DeclareOption{seminar}{%
   \renewcommand*{\event}{Applied Topology in Albany (ATiA) Seminar}%
   \renewcommand*{\eventurl}{https://atia-seminar.github.io/}%
-  \renewcommand*{\when}{2:00 p.m.}%
+  \renewcommand*{\when}{11:00 a.m.}%
   \renewcommand*{\where}{on Zoom}%
   \renewcommand*{\announcer}{Justin Curry}%
 }

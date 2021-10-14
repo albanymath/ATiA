@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  1 OCT 2021 08:00
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.5.8)  14 OCT 2021 09:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**211001-seminar.tex
-(./211001-seminar.tex
+**211015-seminar.tex
+(./211015-seminar.tex
 LaTeX2e <2018-12-01>
 (./UAmathtalk.cls
 Document Class: UAmathtalk 2019/10/23 UAlbany math talk class
@@ -502,8 +502,8 @@ Package fontspec Info: Font family 'HelveticaNeue(0)' created for font
 
 LaTeX Info: Redefining \sffamily on input line 43.
 )
-(./211001-seminar.aux)
-\openout1 = `211001-seminar.aux'.
+(./211015-seminar.aux)
+\openout1 = `211015-seminar.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
@@ -627,14 +627,10 @@ LaTeX Info: Redefining \ref on input line 11.
 LaTeX Info: Redefining \pageref on input line 11.
 LaTeX Info: Redefining \nameref on input line 11.
 
-(./211001-seminar.out) (./211001-seminar.out)
+(./211015-seminar.out) (./211015-seminar.out)
 \@outlinefile=\write3
-\openout3 = `211001-seminar.out'.
+\openout3 = `211015-seminar.out'.
 
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 11.
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
@@ -644,25 +640,31 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `HelveticaNeue' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 26.
+Missing character: There is no   in font [lmroman12-regular]:mapping=tex-text;!
 
+Overfull \hbox (5.03685pt too wide) in paragraph at lines 21--22
+\TU/lmr/m/sc/14.4 Abstract.\TU/lmr/m/n/14.4  Bifurcations in a dynamical system
+ are drastic behavioral changes,
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 24.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
- (./211001-seminar.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 26.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
-Package rerunfilecheck Info: File `211001-seminar.out' has not changed.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 24.
+ (./211015-seminar.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 24.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 24.
+Package rerunfilecheck Info: File `211015-seminar.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
  ) 
 Here is how much of TeX's memory you used:
- 22469 strings out of 492916
- 428421 string characters out of 6133346
- 549553 words of memory out of 5000000
- 26387 multiletter control sequences out of 15000+600000
+ 22468 strings out of 492916
+ 428416 string characters out of 6133346
+ 547512 words of memory out of 5000000
+ 26386 multiletter control sequences out of 15000+600000
  532882 words of font info for 48 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 47i,4n,69p,1009b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,4n,69p,825b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on 211001-seminar.pdf (1 page).
+Output written on 211015-seminar.pdf (1 page).
