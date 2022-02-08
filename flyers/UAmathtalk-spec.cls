@@ -7,10 +7,10 @@
 \renewcommand*{\do}[1]{\csgdef{#1}{}}
 \docsvlist{event, eventurl, when, where, moreinfo, announcer}
 \DeclareOption{seminar}{%
-  \renewcommand*{\event}{Applied Topology in Albany (ATiA) Seminar}%
-  \renewcommand*{\eventurl}{https://atia-seminar.github.io/}%
-  \renewcommand*{\when}{11:30 a.m.}%
-  \renewcommand*{\where}{on Zoom}%
+  \renewcommand*{\event}{ATMCS 10 Contributed Talk Application}%
+  \renewcommand*{\eventurl}{https://atmcs.web.ox.ac.uk/}%
+  \renewcommand*{\when}{}%
+  \renewcommand*{\where}{}%
   \renewcommand*{\announcer}{Justin Curry}%
 }
 \DeclareOption{colloquium}{%
