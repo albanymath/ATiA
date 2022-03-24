@@ -1,0 +1,28 @@
+% !TeX program = xelatex
+\documentclass{UAmathtalk}
+
+\author{Abigail Hickok}
+\address{UCLA}
+\urladdr{https://www.math.ucla.edu/~ahickok/}
+\title{TDA for Nonuniform Data: A Family of Density-Scaled Filtered Complexes}
+\date{Friday, March 25, 2022}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+In this talk, I will discuss a new approach for using persistent homology to infer the homology of an unknown Riemannian manifold $(M, g)$ from a point cloud sampled from an arbitrary smooth probability density function. 
+Standard distance-based filtered complexes, such as the \v{C}ech complex, often have trouble distinguishing noise from features that are simply small. 
+Moreover, the standard \v{C}ech complex may only be homotopy-equivalent to $M$ for a very small range of filtration values. 
+I address this problem by defining a family of ``density-scaled filtered complexes'' that includes a density-scaled \v{C}ech and Vietoris-Rips complexes. 
+The density-scaled \v{C}ech complex is homotopy-equivalent to $M$ for filtration values in an interval whose starting point converges to 0 in probability as the number of points $N \to \infty$ and whose ending point approaches infinity as $N \to \infty$. 
+The density-scaled filtered complexes also have the property that they are invariant under conformal transformations, such as scaling. 
+
+I will also talk about my implementation of a filtered complex that approximates the density-scaled Vietoris--Rips complex. 
+This implementation is stable (under conditions that are almost surely satisfied) and designed to handle outliers in the point cloud that do not lie on $M$. 
+For applications, I will use this implementation to identify clusters in a point cloud whose clusters have different densities, and apply it to a time-delay embedding of the Lorenz dynamical system.
+\end{abstract}
+
+\end{document}
