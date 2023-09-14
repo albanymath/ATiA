@@ -1,0 +1,26 @@
+%!TeX program = xelatex
+\documentclass{UAmathtalk}
+
+\author{Sarah Percival}
+\address{MSU}
+\urladdr{https://sperciva.github.io/}
+\title{Bounding the Interleaving Distance for Geometric Graphs with a Loss Function}
+\date{Friday, September 22, 2023}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Data consisting of a graph with a function to $\mathbb{R}^d$ arise in many applications, encompassing structures such as Mapper graphs, Reeb graphs, geometric graphs, and 3D skeletons. 
+As such, the ability to compare and cluster such objects is required in a data analysis pipeline, leading to a need for distances or metrics on these objects.  
+In this work, we study the interleaving distance on discretizations of these objects, where functor representations of data can be compared by finding pairs of natural transformations between them. 
+However, in many cases, particularly those of the set-valued functor variety, computation of the interleaving distance is NP-hard. 
+For this reason, we take inspiration from the work of Robinson (2020) to find quality measures for families of maps that do not rise to the level of a natural transformation, called assignments. 
+We then endow the functor images with the extra structure of a metric space and define a loss function which measures how far a pair of assignments are from making the required diagrams of an interleaving commute. 
+Finally we show that the computation of the loss function is polynomial in several use cases of interest. 
+This is joint work with Erin Chambers, Elizabeth Munch, and Bei Wang.
+\end{abstract}
+
+\end{document}
