@@ -1,0 +1,30 @@
+% !TeX program = xelatex
+\documentclass{UAmathtalk}
+\usepackage{setspace}
+\renewcommand{\when}{12:00 p.m.}
+\renewcommand{\where}{Hudson 0110}
+%\renewcommand{\where}{Hudson 0110.\\ \href{https://albany.zoom.us/j/81219478289?pwd=N5fy7vxKBXqlQ4mAq4KaeaAM5iAHi4.1}{Zoom ID: 812\,1947\,8289 - Passcode: 233444}}
+\author{Marcus Paone}
+\address{SUNY Albany}
+\urladdr{https://www.website.com/}
+\title{“Perceptrons” Revisited: Learning Homology and the Euler Characteristic
+}
+\date{Friday, October 2nd, 2026}
+
+\begin{document}
+
+\maketitle
+%\renewcommand*{\abstractsize}{\normalsize}
+\renewcommand*{\abstractsize}{\fontsize{13.5}{16.2}\selectfont}
+\begin{abstract}
+    {
+        Minsky and Papert’s landmark 1969 text “Perceptrons” is often blamed for causing the first AI winter because it showed that a single layer neural net can only learn the Euler characteristic of a subset of the plane.
+        In this talk we will review some of the impossibility theorems for learning topological features and then transition to testing these ideas computationally.
+        This will involve a brief detour in random topology for binary image data and then a comparison of what a 2-layer MLP can learn.
+        We’ll show results for predicting---without using homology---$\beta_0$, $\beta_1$, and $\chi$ for all $5\times 5$ grid pixel images.
+        If time permits, we will discuss whether neural nets can learn Euler’s formula from the latent representations of these images alone.
+    }
+\end{abstract}
+\end{document}
+
+
