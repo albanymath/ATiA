@@ -1,0 +1,30 @@
+% !TeX program = xelatex
+\documentclass{UAmathtalk}
+\usepackage{setspace}
+\renewcommand{\when}{12:00 p.m.}
+\renewcommand{\where}{Hudson 0110}
+\renewcommand{\where}{Hudson 0110.\\ \href{https://albany.zoom.us/j/81219478289?pwd=N5fy7vxKBXqlQ4mAq4KaeaAM5iAHi4.1}{Zoom ID: 812\,1947\,8289 - Passcode: 233444}}
+\author{Nathan Kershaw}
+\address{University of Western Ontario}
+\urladdr{https://nathankershaw.ca/}
+\title{Fast persistent homology computations by Reduction to Zero Differentials}
+\date{Friday, November 20, 2026}
+
+
+\begin{document}
+
+\maketitle
+%\renewcommand*{\abstractsize}{\normalsize}
+\renewcommand*{\abstractsize}{\fontsize{13.5}{16.2}\selectfont}
+\begin{abstract}
+    {
+    The computation of Vietoris—Rips persistent homology is mainly bottlenecked by the large number of (n+1)-birth simplices. These simplices contribute nothing to degree n homology but make up the vast majority of all simplices in the filtration. Modern approaches avoid the reduction of birth columns via a combination of cohomology and birth clearing, but in general still require the enumeration of many of the (n+1)-birth simplices. 
+    In this talk, based on joint work with Chris Kapulkin, we introduce a new method that avoids enumerating almost all of the (n+1)-birth simplices. We begin by offering a different perspective on persistent homology, called Reduction to Zero Differentials (RedZeD), in which persistence can be viewed as replacing a filtration of chain complexes by a quasi-isomorphic sequence that has zero differentials. This viewpoint leads to a new technique, called active enumeration, which considers only (n+1)-simplices having at least one "active" face, avoiding the enumeration of almost all (n+1)-birth.
+    When implemented, in almost all cases we test we see an improvement in both time and memory over Ripser, the current fastest and most memory algorithm for Vietoris—Rips persistence, developed by Ulrich Bauer.
+    
+The corresponding paper can be found at: \href{https://arxiv.org/abs/2606.06310}{https://arxiv.org/abs/2606.06310}    }
+\end{abstract}
+\end{document}
+
+
+
